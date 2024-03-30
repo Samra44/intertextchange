@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inter Text Change</title>
+</head>
+<body>
+          <h1>Hello World</h1>
+          <p>Bye World</p>
+          <button onclick="change()">Click me</button>
+
+          <script>
+            function change(){
+             let data1 = document.getElementsByTagName("h1")[0].innerHTML;
+             let data2 =document.getElementsByTagName("p")[0].innerHTML;
+             document.getElementsByTagName("h1")[0].innerHTML=data2;
+             document.getElementsByTagName("p")[0].innerHTML=data1;
+
+
+
+
+            }
+          </script>
+
+
+
+
+
+</body>
+</html>
